@@ -3,8 +3,8 @@
 ## How to run loacaly
 ```
   1. git clone project
-  3. npm install 
-  4. npm start
+  2. npm install 
+  3. npm start
 ```
 
 ## Preview Live
