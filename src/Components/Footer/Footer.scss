@@ -1,0 +1,168 @@
+/*
+    1- Footer Page Style .
+    2- Footer left Components .
+    3- Footer Right Components .
+    4- List Footer Style 
+    5- Footer End Components .
+    6- Media Query Footer  .
+*/
+
+// 1- Footer Page Style 
+
+.footer{
+    background: #3C3C3B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: auto;
+    padding:20px 0;
+    &__left{
+        margin: 20px 0;
+    }
+}
+
+// 2- Footer left Components .
+ 
+.footer__left{
+    .group1436{
+        width: 175px;
+        height: 57px;
+        margin: 30px 0 10px 0;
+    }
+    &__text{
+        text-align: left;
+        letter-spacing: -0.4px;
+        color: $colorwhite;
+        opacity:1;
+        font-size:$font14;
+    }
+}
+
+// 3- Footer Right Components .
+
+.footer__righet{
+    margin: 20px;
+    &__data{
+        text-align: left;
+        letter-spacing: -0.4px;
+        color: $colorwhite;
+        opacity:1;
+        font-size:$font14;
+        p{
+            margin: 30px 0 10px 0;
+            text-align: left;
+            letter-spacing: -0.45px;
+            color: $colorwhite;
+            opacity: 1;
+            width: auto;
+            height: 31px;
+            font-size: $font18;
+        }
+
+        .formfooter{
+            position: relative;
+            .form-control{
+                width: 100%;
+                height: 40px;
+                background: $colorwhite 0% 0% no-repeat padding-box;
+                border: 0.5004362463951111px solid #D8D8D8;
+                border-radius: 24px;
+                opacity: 1;
+                font-weight: bold;
+                font-size: $font12;
+                text-align: left;
+                letter-spacing: -0.3px;
+                color: var(--secondary-color);
+                opacity: 1;
+            }
+            .scendespan{
+                position: absolute;
+                font-weight: bold;
+                font-size: $font12;
+                text-align: center;
+                letter-spacing: -0.25px;
+                color: $colorblack;
+                opacity: 1;
+                width: 120px;
+                height: 35px;
+                background: var(--primary-color) 0% 0% no-repeat padding-box;
+                border-radius: 19px;
+                top: 6%;
+                right: 1%;
+                line-height: 33px;
+                .group1431{
+                    width: 21px;
+                    height: 21px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+// 4. List Footer Style 
+
+.listfooter{
+    margin: 20px 0;
+    &:first-child{
+        width: 50%;
+        border-right: 1px solid #575758;
+    }
+    ul{
+        padding: 0;
+        li{
+            list-style: none;
+            margin: 10px 0;
+            text-align: left;
+            letter-spacing: -0.4px;
+            color: $colorwhite;
+            opacity: 1;
+            font-size: 14px;
+        img{
+            width: 33px;
+            height: 33px;
+            margin-right: 15px;
+            }
+        }
+    }
+}
+
+// 5- Footer End Components .
+
+.footer__end{
+    &__copyrighet{
+        text-align: left;
+        letter-spacing: -0.4px;
+        color: $colorwhite;
+        opacity: 1;
+        font-size: 14px;
+    }
+    &__powered{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        div{
+            display: inline-block;
+            color: $colorwhite;
+            img{
+                width: 65px;
+                height: 40px;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+// 6- Media Query Footer  
+
+@media screen and(max-width: 768px) {
+    .footer__end{
+        &__copyrighet{
+            text-align: center;
+        }
+        &__powered{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    }
+}

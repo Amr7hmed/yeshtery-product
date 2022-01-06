@@ -1,0 +1,191 @@
+
+/*
+    1- Style Class Open && Close Component Cart .
+    2- Style Cart Page .
+    3- Cart Elment Component .
+    4- Media Query .
+*/
+
+// 1- Style Class Open && Close Component Cart
+
+#open-cartcomponet{
+    display: block;
+}
+#close-cartcomponent{
+    display: none;
+}
+
+// 2- Style Cart Page 
+.cart{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+
+    &__content{   
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        z-index: 1001;
+        background-color: $colorwhite;
+        right: 0;
+        overflow-y: auto;
+    }
+
+    &__decrpton{
+        width: 90%;
+        margin: 30px auto;
+        h3{
+        text-align: center;
+        letter-spacing: 0px;
+        color: var(--secondary-color);
+        opacity: 1;
+        font-size: 22px;
+        font-weight: bold;
+        }
+    }
+    
+    &__close{
+        text-align: right;
+        margin: 15px auto;
+        img{
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+    }
+
+    &__summary{
+        text-align: left;
+        letter-spacing: 0px;
+        color: $colorblack;
+        opacity: 1;
+        font-size: 13px;
+        font-weight: bold;
+        margin:20px 0;
+    }
+
+    &__totle{
+        margin: 20px auto;
+        h3{
+            text-align: center;
+            letter-spacing: 0px;
+            color: #1D1D1B;
+            opacity: 1;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+
+    &__checkout{
+        width: 100%;
+        text-align: center;
+        span{
+            display: inline-block;
+            width: 48%;
+            border-radius: 24px;
+            opacity: 1;
+            height: 48px;
+            line-height: 48px;
+            font-size: 11px;
+            font-weight: bold;
+            box-shadow: .5px .5px 1px rgb(190, 190, 190);
+            cursor: pointer;
+            &:first-child{
+                background: var(--primary-color) 0% 0% no-repeat padding-box;
+                margin-right: 2%;
+            }
+            &:last-child{
+                background: #542E90 0% 0% no-repeat padding-box;
+                color: $colorwhite;
+            }
+        }
+    }
+
+}
+
+// 3- Cart Elment Component
+.cartelment {
+        background: $colorwhite 0% 0% no-repeat padding-box;
+        border: 0.75px solid #ECECEC;
+        border-radius: 7px;
+        opacity: 1;
+        height: 140px;
+        padding: 5px;
+
+        &__img{
+                img{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+                }
+        }
+
+        &__decrpton{
+            text-align: left;
+            letter-spacing: 0px;
+            color: #1D1D1B;
+            opacity: 1;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        &__quantity{
+            text-align: left;
+            letter-spacing: 0px;
+            color: #3C3C3B;
+            opacity: 1;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        &__price{
+            position: relative;
+            width: 100%;
+            span{
+                display: inline-block;
+                position: absolute;
+                font-size: 11px;
+                font-weight: bold;
+                text-align: left;
+                opacity: 1;
+                &:first-child{
+                    color: var(--secondary-color);
+                    left: 0;
+                    }
+                &:last-child{
+                    background: var(--primary-color) 0% 0% no-repeat padding-box;
+                    border-radius: $font12;
+                    opacity: 1;
+                    width: 80px;
+                    height: 24px;
+                    right: 0;
+                    text-align: center;
+                    line-height: 23px;
+                    cursor: pointer;
+                    box-shadow: .5px .5px 1px rgb(190, 190, 190);
+                    }
+                }
+            }
+    }
+
+// 4- Media Query .
+
+@media screen and(max-width: 768px){
+    .cart{
+        &__content{
+            width: 50%;
+        } 
+    }
+}
+
+@media screen and(max-width: 576px) {
+    .cart{
+        &__content{
+            width: 75%;
+        } 
+    }
+}

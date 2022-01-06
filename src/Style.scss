@@ -1,0 +1,94 @@
+/*
+    1- Variables Styles .
+    2- Style Genaral Classes .
+    3- Owl Carousel .
+    4- Style Home Page .
+    5- list link Home Page .
+    6- Import Style Components 
+        --6-1 Style Loading Component
+        --6-2 Style Navbar Component
+        --6-3 Style Proudect Component
+        --6-4 Style Footer Component
+        --6-5 Style Cart Component
+*/
+
+// 1- Variables Styles
+
+$colorblack:#000000;
+$colorwhite:#FFFFFF;
+$font14:14px;
+$font12:12px;
+$font18:18px;
+
+:root{
+    --primary-color: #FFF200;
+    --secondary-color: #542E90;
+}
+
+
+// 2- Style Genaral Classes .
+
+.carditem {
+    margin: 20px 0;
+  }
+.mr5{
+    margin-right: 5px;
+    width: 40px;
+    height: 30px;
+  }
+.carticon{
+    cursor: pointer;
+}
+button:focus {
+    box-shadow: none !important;
+}
+
+// 3- Owl Carousel
+
+.owl-nav{display: none !important;}
+.owl-nav.disabled{display: none !important;}
+.owl-dots{display: none !important;}
+
+
+// 4- Style Home Page .
+
+.home{
+    height: auto;
+    background: $colorwhite 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position:relative;
+}
+
+// 5- list link Home Page .
+
+.listlink{
+    margin: 10px 0;
+    font-size: $font12;
+    font-weight: bold;
+    a{
+        color: $colorblack;
+        margin: 0 5px;
+    }
+}
+
+// 6- Import Style Components 
+
+// --6-1 Style Loading Component
+
+@import "./Components/Loading/Loading.scss";
+
+// --6-2 Style Navbar Component
+
+@import "./Components/Navbar/Navbar.scss";
+
+// --6-3 Style Proudect Component
+
+@import './Pages/Product/Proudect.scss';
+
+// --6-4 Style Footer Component
+
+@import './Components/Footer/Footer.scss';
+
+// --6-5 Style Cart Component
+
+@import './Components/Cart/Cart.scss';

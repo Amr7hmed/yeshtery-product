@@ -1,0 +1,123 @@
+[
+    {
+        "id":1,
+        "Producttype":"MEN",
+        "price":"9,999 LE",
+        "Brand":"/image/Group 346.svg",
+        "imagecover":"./image/Product/cover-6.jpg",
+        "image":[
+            "./image/Product/img1.jpg",
+            "./image/Product/img2.jpg",
+            "./image/Product/img3.jpg",
+            "./image/Product/img4.jpg"],
+        "size":["Small","Medium","Large","X Large","XX Large"],
+        "description":"Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "count":1,
+        "review":4,
+        "reviewdtals":"4.9 of 5",
+        "color":[
+            "./image/Product/cover-6.jpg",
+            "./image/Product/cover-1.jpg"],
+        "reviewpepole":"22 Rates"
+    },{
+        "id":2,
+        "Producttype":"MEN",
+        "price":"9,999 LE",
+        "Brand":"/image/Group 346.svg",
+        "imagecover":"./image/Product/cover-1.jpg",
+        "image":[
+            "./image/Product/img1.jpg",
+            "./image/Product/img2.jpg",
+            "./image/Product/img3.jpg",
+            "./image/Product/img4.jpg"],
+        "size":["Small","Medium","Large","X Large","XX Large"],
+        "description":"Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "count":1,
+        "review":3,
+        "reviewdtals":"4.9 of 5",
+        "color":[
+            "./image/Product/cover-6.jpg",
+            "./image/Product/cover-1.jpg"],
+        "reviewpepole":"22 Rates"
+    },{
+        "id":3,
+        "Producttype":"MEN",
+        "price":"9,999 LE",
+        "Brand":"/image/Group 346.svg",
+        "imagecover":"./image/Product/cover-3.jpg",
+        "image":[
+            "./image/Product/img1.jpg",
+            "./image/Product/img2.jpg",
+            "./image/Product/img3.jpg",
+            "./image/Product/img4.jpg"],
+        "size":["Small","Medium","Large","X Large","XX Large"],
+        "description":"Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "count":1,
+        "review":2,
+        "reviewdtals":"4.9 of 5",
+        "color":[
+            "./image/Product/cover-6.jpg",
+            "./image/Product/cover-1.jpg"],
+        "reviewpepole":"22 Rates"
+    },{
+        "id":4,
+        "Producttype":"MEN",
+        "price":"9,999 LE",
+        "Brand":"/image/Group 346.svg",
+        "imagecover":"./image/Product/cover-4.jpg",
+        "image":[
+            "./image/Product/img1.jpg",
+            "./image/Product/img2.jpg",
+            "./image/Product/img3.jpg",
+            "./image/Product/img4.jpg"],
+        "size":["Small","Medium","Large","X Large","XX Large"],
+        "description":"Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "count":1,
+        "review":4,
+        "reviewdtals":"4.9 of 5",
+        "color":[
+            "./image/Product/cover-6.jpg",
+            "./image/Product/cover-1.jpg"],
+        "reviewpepole":"22 Rates"
+    },{
+        "id":5,
+        "Producttype":"MEN",
+        "price":"9,999 LE",
+        "Brand":"/image/Group 346.svg",
+        "imagecover":"./image/Product/cover-5.jpg",
+        "image":[
+            "./image/Product/img1.jpg",
+            "./image/Product/img2.jpg",
+            "./image/Product/img3.jpg",
+            "./image/Product/img4.jpg"],
+        "size":["Small","Medium","Large","X Large","XX Large"],
+        "description":"Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "count":1,
+        "review":3,
+        "reviewdtals":"4.9 of 5",
+        "color":[
+            "./image/Product/cover-6.jpg",
+            "./image/Product/cover-1.jpg"],
+        "reviewpepole":"22 Rates"
+    },{
+        "id":6,
+        "Producttype":"MEN",
+        "price":"9,999 LE",
+        "Brand":"/image/Group 346.svg",
+        "imagecover":"./image/Product/cover-6.jpg",
+        "image":[
+            "./image/Product/img1.jpg",
+            "./image/Product/img2.jpg",
+            "./image/Product/img3.jpg",
+            "./image/Product/img4.jpg"],
+        "size":["Small","Medium","Large","X Large","XX Large"],
+        "description":"Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "count":1,
+        "review":3,
+        "reviewdtals":"4.9 of 5",
+        "color":[
+            "./image/Product/cover-6.jpg",
+            "./image/Product/cover-1.jpg"],
+        "reviewpepole":"22 Rates"
+    }
+]
