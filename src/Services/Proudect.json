@@ -3,7 +3,7 @@
         "id":1,
         "Producttype":"MEN",
         "price":"9,999 LE",
-        "Brand":"/image/Group 346.svg",
+        "Brand":"./image/Group 346.svg",
         "imagecover":"./image/Product/cover-6.jpg",
         "image":[
             "./image/Product/img1.jpg",
@@ -23,7 +23,7 @@
         "id":2,
         "Producttype":"MEN",
         "price":"9,999 LE",
-        "Brand":"/image/Group 346.svg",
+        "Brand":"./image/Group 346.svg",
         "imagecover":"./image/Product/cover-1.jpg",
         "image":[
             "./image/Product/img1.jpg",
@@ -43,7 +43,7 @@
         "id":3,
         "Producttype":"MEN",
         "price":"9,999 LE",
-        "Brand":"/image/Group 346.svg",
+        "Brand":"./image/Group 346.svg",
         "imagecover":"./image/Product/cover-3.jpg",
         "image":[
             "./image/Product/img1.jpg",
@@ -63,7 +63,7 @@
         "id":4,
         "Producttype":"MEN",
         "price":"9,999 LE",
-        "Brand":"/image/Group 346.svg",
+        "Brand":"./image/Group 346.svg",
         "imagecover":"./image/Product/cover-4.jpg",
         "image":[
             "./image/Product/img1.jpg",
@@ -83,7 +83,7 @@
         "id":5,
         "Producttype":"MEN",
         "price":"9,999 LE",
-        "Brand":"/image/Group 346.svg",
+        "Brand":"./image/Group 346.svg",
         "imagecover":"./image/Product/cover-5.jpg",
         "image":[
             "./image/Product/img1.jpg",
@@ -103,7 +103,7 @@
         "id":6,
         "Producttype":"MEN",
         "price":"9,999 LE",
-        "Brand":"/image/Group 346.svg",
+        "Brand":"./image/Group 346.svg",
         "imagecover":"./image/Product/cover-6.jpg",
         "image":[
             "./image/Product/img1.jpg",
